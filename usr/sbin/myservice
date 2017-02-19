@@ -1,0 +1,3 @@
+${mycommand} >> /var/log/${myservice}.log 2>&1 &
+echo $! > /var/run/${myservice}.pid
+
